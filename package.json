@@ -1,9 +1,15 @@
 {
   "name": "web-example-monorepo",
   "workspaces": {
-    "packages" : [
+    "packages": [
+      "apps/*",
       "packages/*"
     ]
   },
-  "packageManager": "yarn@4.1.1"
+  "packageManager": "yarn@4.1.1",
+  "devDependencies": {
+    "eslint": "^9.1.1",
+    "prettier": "^3.2.5",
+    "typescript": "^5.4.5"
+  }
 }
